@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |sp|
     sp.framework    = 'CoreData'
-    sp.header_dir   = 'MagicalRecord'
+    sp.header_dir   = 'MagicalRecord/Core'
     sp.source_files = 'MagicalRecord/**/*.{h,m}'
     sp.exclude_files = '**/MagicalRecordShorthandMethodAliases.h'
     sp.prefix_header_contents = <<-EOS
